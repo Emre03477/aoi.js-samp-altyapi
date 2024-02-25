@@ -15,7 +15,7 @@ const bot = new AoiClient({
   }
 });
 const loader = new LoadCommands(bot);
-loader.load(bot.cmd, "./commands/")
+loader.load(bot.cmd, "./komutlar/")
 bot.variables ({
  ip:"", // doldur
  port:"" // doldur
